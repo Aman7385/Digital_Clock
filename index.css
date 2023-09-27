@@ -5,9 +5,7 @@ body {
     
 
 }
-*{
-    /* border: 2px solid red; */
-}
+
 .header {
     font-family: 'Moirai One', cursive;
     margin: 15px auto;
@@ -280,7 +278,7 @@ main {
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:700px)  {
     body{
         height: 100vh;
     }
@@ -368,5 +366,65 @@ main {
     .container2 {
         height: 30vw; 
         width: 30vw; 
+    }
+}
+
+@media screen and (max-width:430px){
+    body {
+        height: 98vh;
+    }
+    .container1{
+        position: absolute;
+        height: 63vw;
+        width: 62vw;
+        top: 15.5vw;
+        left: -20vw;
+    }
+    #ampm {
+        left: 34vw;
+    }
+    #d {
+        left: 60px;
+        top: 27.78vw;
+    }
+    #w {
+        top: 27.78vw;
+        left: 48.5vw;
+    }
+    #m {
+        top: 27.78vw;
+        left: 98px;
+    }
+    #date, #month, #slash, #day {
+        right: 6vw;
+        font-size: 5.5vw;
+        top: 1.3vw;
+    }
+    #hrs, #colon, #min {
+        font-size: 7.4vw;
+        font-weight: 900;
+        margin-right: 4px;
+    }
+    #sec{
+        font-size: 5vw;
+        left:50vw;
+    }
+    #yr {
+        position: absolute;
+        left: 27.4vw;
+        font-size: 5.3vw;
+    }
+    .vert {
+        height: 53px;
+    }
+    #hr3 {
+        width: 20vw;
+        margin-top: 14px;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        font-size: 4vw;
+        left: 6vw;
     }
 }
