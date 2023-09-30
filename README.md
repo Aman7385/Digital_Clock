@@ -1,5 +1,5 @@
-#Responsive Digital_Clock
+# Responsive Digital_Clock
 
-Preview on mobile or laptop :- 
+# Preview on mobile or laptop :- 
 
-###https://aman7385.github.io/Digital_Clock/
+## https://aman7385.github.io/Digital_Clock/
